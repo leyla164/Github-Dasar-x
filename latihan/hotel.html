@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+  <script>
+      document.write("--**-- SISTEM INFORMASI PERHOTELAN --**--<br><br>");
+      nama = prompt("nama pelanggan : ");
+      document.write("nama pelangan: <br>")
+      document.write("jenis kamar : <br>");
+      document.write("1. Deluxe Room Rp.275.000 <br>");
+      document.write("2. Suite Room Rp.300.000 <br>");
+      document.write("3. President Room Rp.375.000 <br>");
+      kamar1 = 275000;
+      kamar2 = 300000;
+      kamar3 = 375000;
+      var pilih;
+      var jumlah;
+      kamar = prompt("jenis kamar :");
+      document.write("jenis kamar : "+ kamar + "<br>");
+      lamaMenginap = prompt("lama menginap : ");
+      document.write("status pelangan : <br>");
+      document.write("1. Member <br>");
+      document.write("2. No member <br>");
+      document.write("<br>" +"-- PEMESANAN HOTEL--" +"<br>"+"Nama pelanggan :" + nama+"<br>" + "jenis kamar :" +kamar   +"<br>" +"lama menginap:" + lamaMenginap+"<br>")
+
+
+      if(pilih = kamar1){
+        kamar1 = 275000;
+        jumlah = lamaMenginap* kamar1;
+        document.write("total:" + jumlah);
+      }
+      else if(pilih = kamar2){
+        kamar2 = 300000;
+        jumlah = lamaMenginap* kamar2;
+        document.write("total:" + jumlah);
+      }
+      else if(pilih = kamar3){
+        kamar3 = 375000;
+        jumlah = lamaMenginap* kamar3;
+        document.write("total:" + jumlah);
+      }
+  </script>
+</body>
+</html>
